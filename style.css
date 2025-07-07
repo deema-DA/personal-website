@@ -1,0 +1,86 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff8f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #f3e6ec;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.github-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #6e3b6e;
+  text-decoration: none;
+  font-weight: bold;
+}
+.github-link:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #8a4b7b;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li::before {
+  content: "★ ";
+  color: #c08497;
+}
+
+.project {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #c08497;
+  border-radius: 5px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #8a4b7b;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #a75c8c;
+}
+
+footer {
+  background: #f3e6ec;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  color: #555;
+}
