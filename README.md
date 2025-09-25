@@ -1,5 +1,5 @@
 # Personal  Website 
-Welcome to my personal portfolio website!  
+Welcome to my personal  website!  
 This website showcases my skills, projects, and professional background as a software developer.
 
 ## Features
